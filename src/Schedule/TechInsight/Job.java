@@ -25,6 +25,10 @@ public class Job implements Comparable<Job> {
      */
     private long startTime;
 
+    /**
+     * @Description: 任务的执行间隔时间
+     */
+    private long delay;
 
     public long getDelay() {
         return delay;
@@ -33,8 +37,6 @@ public class Job implements Comparable<Job> {
     public void setDelay(long delay) {
         this.delay = delay;
     }
-
-    private long delay;
 
     public Runnable getTask() {
         return task;
