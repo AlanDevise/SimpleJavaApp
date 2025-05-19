@@ -16,6 +16,9 @@ import java.util.concurrent.locks.LockSupport;
 
 public class ScheduleService {
 
+    /**
+     * 一个线程池处理所有定时任务
+     */
     ExecutorService executorService = Executors.newFixedThreadPool(6);
 
     Trigger trigger = new Trigger();
@@ -41,6 +44,9 @@ public class ScheduleService {
      */
     class Trigger {
 
+        /**
+         * 优先阻塞队列
+         */
         PriorityBlockingQueue<Job> queue = new PriorityBlockingQueue<>();
 
         Thread thread = new Thread(() -> {
@@ -79,6 +85,9 @@ public class ScheduleService {
             System.out.println("触发器启动了");
         }
 
+        /**
+         * 唤醒方法，用于立即唤醒触发器
+         */
         void wakeUp() {
             LockSupport.unpark(thread);
         }
