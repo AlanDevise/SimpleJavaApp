@@ -41,11 +41,11 @@ public class MyLock {
     public void lock() {
         // 如果能将flag的值从false改成true，那么就说明获取到了锁
         // 如果注释掉下面这个if代码块，那么这个锁就变成了公平锁，因为所有的线程都需要先链表尾部加入，然后再去尝试获取锁
-        // if (flag.compareAndSet(false, true)) {
-        //     System.out.println(Thread.currentThread().getName() + "直接获取到了锁");
-        //     owner = Thread.currentThread();
-        //     return;
-        // }
+        if (flag.compareAndSet(false, true)) {
+            System.out.println(Thread.currentThread().getName() + "直接获取到了锁");
+            owner = Thread.currentThread();
+            return;
+        }
         // 到这里意味着没有获取到锁
         // 创建一个当前节点
         Node current = new Node();
