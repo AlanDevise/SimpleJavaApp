@@ -1,4 +1,4 @@
-package AQS_Lock.TechInsight;
+package TechInsight.AQS_Lock;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;
@@ -6,7 +6,7 @@ import java.util.concurrent.locks.LockSupport;
 
 /**
  * @Filename: MyLock.java
- * @Package: AQS_Lock.TechInsight
+ * @Package: TechInsight.AQS_Lock.TechInsight
  * @Version: V1.0.0
  * @Description: 1.
  * @Author: Alan Zhang [initiator@alandevise.com]

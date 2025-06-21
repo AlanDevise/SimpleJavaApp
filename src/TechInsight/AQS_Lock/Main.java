@@ -1,11 +1,11 @@
-package AQS_Lock.TechInsight;
+package TechInsight.AQS_Lock;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @Filename: Main.java
- * @Package: AQS_Lock.TechInsight
+ * @Package: TechInsight.AQS_Lock.TechInsight
  * @Version: V1.0.0
  * @Description: 1.
  * @Author: Alan Zhang [initiator@alandevise.com]
