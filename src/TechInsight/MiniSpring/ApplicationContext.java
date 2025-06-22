@@ -44,22 +44,22 @@ public class ApplicationContext {
     /**
      * Bean定义的集合，用于存放所有的Bean定义<br/>
      */
-    private Map<String, BeanDefinition> beanDefinitionMap = new HashMap<>();
+    private final Map<String, BeanDefinition> beanDefinitionMap = new HashMap<>();
 
     /**
      * IOC容器本体
      **/
-    private Map<String, Object> ioc = new HashMap<>();
+    private final Map<String, Object> ioc = new HashMap<>();
 
     /**
      * 容器中还没有初始化的完的对象
      */
-    private Map<String, Object> loadingIoc = new HashMap<>();
+    private final Map<String, Object> loadingIoc = new HashMap<>();
 
     /**
      * BeanPostProcessor的集合
      */
-    private List<BeanPostProcessor> postProcessors = new ArrayList<>();
+    private final List<BeanPostProcessor> postProcessors = new ArrayList<>();
 
     /**
      * 让所有应该初始化的对象全都初始化完成，造对象<br/>
