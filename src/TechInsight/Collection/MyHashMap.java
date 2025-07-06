@@ -1,11 +1,11 @@
-package TechInsight.HashMap;
+package TechInsight.Collection;
 
 /**
  * <h1>自定义的HashMap实现</h1>
  * 注意这里只实现了扩容，没有实现缩容
  *
  * @Filename: MyHashMap.java
- * @Package: TechInsight.HashMap
+ * @Package: TechInsight.Collection
  * @Version: V1.0.0
  * @Description: 1.
  * @Author: Alan Zhang [initiator@alandevise.com]

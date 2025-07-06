@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * @Filename: EqualPairs.java
- * @Package: Algorithm.HashMap
+ * @Package: Algorithm.Collection
  * @Version: V1.0.0
  * @Description: 1.
  * @Author: Alan Zhang [initiator@alandevise.com]

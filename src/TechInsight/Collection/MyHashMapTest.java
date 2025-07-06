@@ -1,4 +1,4 @@
-package TechInsight.HashMap;
+package TechInsight.Collection;
 
 import org.junit.Test;
 
@@ -7,7 +7,7 @@ import static org.junit.Assert.assertNull;
 
 /**
  * @Filename: MyHashMapTest.java
- * @Package: TechInsight.HashMap
+ * @Package: TechInsight.Collection
  * @Version: V1.0.0
  * @Description: 1.
  * @Author: Alan Zhang [initiator@alandevise.com]

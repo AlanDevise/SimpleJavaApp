@@ -16,7 +16,7 @@ public class HashmapTest {
 
     public static void main(String[] args) {
         /* 全局HashMap*/
-        // HashMap<Integer, Integer> hashMap = new HashMap<>();
+        // Collection<Integer, Integer> hashMap = new Collection<>();
         ConcurrentHashMap<Integer, Integer> hashMap = new ConcurrentHashMap<>();
         hashMap.put(0, 0);
 

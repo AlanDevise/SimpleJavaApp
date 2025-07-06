@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 /**
  * @Filename: FindDifference.java
- * @Package: Algorithm.HashMap
+ * @Package: Algorithm.Collection
  * @Version: V1.0.0
  * @Description: 1.
  * @Author: Alan Zhang [initiator@alandevise.com]
