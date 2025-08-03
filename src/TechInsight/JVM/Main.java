@@ -11,7 +11,7 @@ package TechInsight.JVM;
 
 public class Main {
     public static void main(String[] args) {
-        Hotspot hotspot = new Hotspot();
+        Hotspot hotspot = new Hotspot(null, null);
         hotspot.start();
     }
 }
